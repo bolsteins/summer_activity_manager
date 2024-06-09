@@ -1,2 +1,6 @@
 # summer_activity_manager
-DIP750 Project Work – Summer Activity Manager
+
+Matīss Bolšteins, 241RHM006
+Project name: Summer Activity Manager
+Description: 
+Instructions: 
