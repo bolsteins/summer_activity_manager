@@ -1,12 +1,11 @@
 from activity_generator_dictionary import generate_activity
-from quote_api import Quote
+from quote_api import quote
 from walking_challenge import walking_challenge
 from task_game import task_game
-from utils import display_menu
+from display import display_menu
 
 def main():
-    quote = Quote()
-
+    quote_s = quote()
     # walking challenge goal is set to 500 km
     goal_km = 500 
     # walking challenge progress that can be changed here every day
@@ -29,7 +28,7 @@ def main():
         elif choice == 3:
             task_game()
         elif choice == 4:
-            quote.display_quote()
+            quote_s.display_quote()
         elif choice == 5:
             print("Goodbye!")
             break

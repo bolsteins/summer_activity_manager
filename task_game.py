@@ -24,4 +24,5 @@ def task_game():
         print("Good effort! Try to complete more tasks tomorrow.")
     else:
         print("You can do better! Let's aim for more completed tasks tomorrow.")
-    print(f"Total Points: {points * 10}\n")  # Assuming 10 points per task
+    # 10 points for each task
+    print(f"Total Points: {points * 10}\n")
