@@ -1,6 +1,6 @@
 import requests
 
-class QuoteService:
+class Quote:
     def get_quote_from_api(self):
         response = requests.get("https://zenquotes.io/api/random")
         data = response.json()
