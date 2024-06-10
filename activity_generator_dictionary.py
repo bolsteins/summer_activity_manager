@@ -1,8 +1,8 @@
 activities = {
-    "weekday_one": ["Read a book", "Go for a run", "Visit a museum"],
-    "weekday_multiple": ["Have a game night", "Go to a restaurant", "Attend a workshop"],
-    "weekend_one": ["Go hiking", "Watch a movie", "Do a DIY project"],
-    "weekend_multiple": ["Host a BBQ", "Go to a concert", "Plan a day trip"]
+    "weekday_one": ["Read a book", "Go for a run", "Visit a museum", "Go to the cinema", "Go for a walk", "Go to IKEA"],
+    "weekday_multiple": ["Have a game night", "Go to a cafe", "Go to a workshop"],
+    "weekend_one": ["Go hiking", "Mow the lawn", "Do yoga",  "Watch a movie", "Bake a cake"],
+    "weekend_multiple": ["Host a BBQ", "Go to Jūrmala", "Go to a concert", "Plan a day trip", "Go camping"]
 }
 
 def find_activity(day_type, participants):

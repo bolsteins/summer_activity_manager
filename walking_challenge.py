@@ -1,5 +1,6 @@
 def walking_challenge(goal_km, current_progress_km):
     print("\n*** Walking Challenge ***")
+    # goal an current progress are set on main
     print(f"Goal: {goal_km} km")
     print(f"Current progress: {current_progress_km} km")
 

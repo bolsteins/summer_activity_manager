@@ -8,7 +8,7 @@ def main():
     quote_s = quote()
     # walking challenge goal is set to 500 km
     goal_km = 500 
-    # walking challenge progress that can be changed here every day
+    # walking challenge progress that can be updated here every day
     # last updated: 09.06.2024
     current_progress_km = 70.4 
 
